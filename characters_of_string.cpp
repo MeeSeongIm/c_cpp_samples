@@ -1,3 +1,6 @@
+// An expression is a unit of computation which has a value. 
+// A statement is a unit of execution which must always be terminated by a semicolon. 
+
 
 #include <iostream>
 #include <string>
