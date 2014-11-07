@@ -4,10 +4,10 @@
 #include <stdio.h>
 
 #define SWAP(a,b) do {  \
-						a ^= b;   \
-						b ^= a;   \
-						a ^= b;   \
-				} while(0)  				// exclusive or
+			a ^= b;   \
+			b ^= a;   \
+			a ^= b;   \
+		} while(0)  				// exclusive or
 
 
 
