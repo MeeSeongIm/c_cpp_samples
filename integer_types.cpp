@@ -48,3 +48,25 @@ int main( int argc, char ** argv ) {
 
 
 
+/*
+size of char c is 1
+size of short int si is 2
+size of int i is 4
+size of long int li is 4
+size of long long int lli is 8
+
+i is 12345
+li is 12345
+c = 127
+c is 127
+after increment, c is -128
+
+d = 127
+d is 127
+after incremenet, d is 128
+*/
+
+
+
+
+
