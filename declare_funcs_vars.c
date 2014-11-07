@@ -1,9 +1,9 @@
 // header file.
 
 #include <stdio.h>
-#include "func.h"
+#include "func_var_functs.h"
 
-//void func();  	// declare a function. Inside func.h
+//void func();  	// declare a function. Inside func_var_functs.h
 int i;				// declare a variable
 
 
