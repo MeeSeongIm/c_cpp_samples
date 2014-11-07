@@ -19,7 +19,7 @@ int main( int argc, char ** argv ) {
 	printf("k value is %f\n", k++);
 
 	char s1[] = "string";
-	char * c = s1; 					// char pointer
+	char * c = s1; 			// char pointer
 	printf("value is %c\n", *c++);	// post increment
 	printf("value is %c\n", *c++);
 	printf("value is %c\n", *c++);
@@ -27,7 +27,7 @@ int main( int argc, char ** argv ) {
 
 
 	int i1[] = {1,2,3,4,5};
-	int * ip = i1; 					// integer pointer, strongly typed.
+	int * ip = i1; 			// integer pointer, strongly typed.
 	printf("value is %d\n", *ip++);	// post increment
 	printf("value is %d\n", *ip++);
 	printf("value is %d\n", *ip++);
