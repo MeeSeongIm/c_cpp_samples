@@ -1,6 +1,9 @@
 // enumerated names work like constants: allow to be categorized.
 // data for a deck of cards
 
+// typedef  card_t
+// typedef is convenient for simplifying
+// cumbersome type definitions and machine dependent types.
 
 
 
