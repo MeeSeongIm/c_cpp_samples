@@ -14,7 +14,7 @@ public:
 	inline int numerator() const { return _n; };
 	inline int denominator() const { return _d; };
 	Rational & operator = ( const Rational & );
-	Rational operator + ( const Rational & ) const;
+	Rational operator + ( const Rational & ) const;			// LHS is the class itself. 
 	Rational operator - ( const Rational & ) const;
 	Rational operator * ( const Rational & ) const;
 	Rational operator / ( const Rational & ) const;
