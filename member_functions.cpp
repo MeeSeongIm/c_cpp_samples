@@ -8,10 +8,10 @@ using namespace std;
 // move to A.hpp
 class A {
 	int ia;
-public:										                                        // public interface methods
+public:									// public interface methods
 	void setA ( const int a );
 	int getA ();
-	int getA () const; 						                                  // const safe
+	int getA () const; 						// const safe
 };
 
 // implementation which is the function members by themselves
@@ -34,10 +34,10 @@ int main( int argc, char ** argv ) {
 // class type, object (an instance of the class)
 	A a;
 	a.setA(33);
-	const A b = a;								                                  // an object b of type a, copied a into b.
+	const A b = a;							// an object b of type a, copied a into b.
 //	const A b = a; // error:
-	cout << "a is " << a.getA() << endl;		                        // get mutable getA
-	cout << "b is " << b.getA() << endl;		                        // get const getA
+	cout << "a is " << a.getA() << endl;		                // get mutable getA
+	cout << "b is " << b.getA() << endl;		                // get const getA
 	return 0;
 }
 
