@@ -6,8 +6,8 @@ const std::string bws = "This is BWString::string";
 class string {
 	std::string s;
 public:
-	string ( void ) : s(bws) {};						// constructor
-	string ( const std::string & _s ) : s(bws) {};		// constructor
+	string ( void ) : s(bws) {};					// constructor
+	string ( const std::string & _s ) : s(bws) {};			// constructor
 	operator std::string & ( void ) { return s; };
 };
 };	// namespace BWString
@@ -18,7 +18,7 @@ const std::string thisString = "This is a string inside a namespace.";
 class string {
 	std::string t;
 public:
-	string ( void ) : t(thisString) {};						// constructor
+	string ( void ) : t(thisString) {};				// constructor
 	string ( const std::string & _t ) : t(thisString) {};		// constructor
 	operator std::string & ( void ) { return t; };
 };
