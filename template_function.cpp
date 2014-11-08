@@ -17,3 +17,10 @@ int main( int argc, char ** argv ) {
 }
 
 
+/*
+9
+aaaaa is greater
+baaaaaaaaa is greater
+baaaa is greater*/
+
+
