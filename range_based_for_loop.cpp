@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <vector>
+#include "animals.hpp"
+
 using namespace std;
 
 int main( int argc, char ** argv ) {
@@ -25,6 +27,15 @@ int main( int argc, char ** argv ) {
 
 	for( int i : {1,2,3,4,5} ) { // temp container provided by the initializer list
 		cout << i << " ";
+	}
+
+	cout << endl;
+
+	Dog a("arnie"); // step through an initializer list of objects using the new for loop
+	Dog b("barky");
+	Dog c("scout");
+	for( Dog * d : { &a, &b, &c } ) {
+		d->speak();
 	}
 
 	return 0;
