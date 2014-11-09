@@ -11,18 +11,18 @@ int main( int argc, char ** argv ) {
 	printf("writing file\n");
 	FILE * fw = fopen(fn, "w");  			// FILE== structure for file handle, (filename, mode string)
 	for(int i = 0; i < 5; i++) {
-		fputs(str, fw);						// fputs == line-oriented write
+		fputs(str, fw);				// fputs == line-oriented write
 	}
 	fclose(fw);
 	printf("done.\n");
 
 	// read the file
 	printf("reading file\n");
-	char buf[maxString];					// buffer
-	FILE * fr = fopen(fn, "r");				// fr == file handle open for read
+	char buf[maxString];				// buffer
+	FILE * fr = fopen(fn, "r");			// fr == file handle open for read
 	char * rc;
-												 // double paraenthesis: assigning and testing in the same expression in the while-loop
-	while(( rc = fgets(buf, maxString, fr) )) {  // fgets is the complement to fputs to read the file, fgets reads one line at a time
+							// double parenthesis: assigning and testing in the same expression in the while-loop
+	while(( rc = fgets(buf, maxString, fr) )) {  	// fgets is the complement to fputs to read the file, fgets reads one line at a time
 		printf(buf);
 	}
 	fclose(fr);
