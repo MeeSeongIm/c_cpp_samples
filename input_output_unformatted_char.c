@@ -4,7 +4,7 @@
 
 
 int main( int argc, char ** argv ) {
-	puts("Print this sentence.");	// automatically prints each line on a new line
+	puts("Print this sentence.");		// automatically prints each line on a new line
 	puts("Print this sentence.");
 	puts("Print this sentence.");
 
@@ -16,11 +16,11 @@ int main( int argc, char ** argv ) {
 	fputs("this is a string\n", out);
 	fclose(out);
 
-	char s[128];   						// string buffer
-	FILE * in = fopen("file.txt", "r"); // open file to read
-	fgets(s, 128, in);  				// (string buffer, max of that size minus one char so it can be terminated, in buffer)
-	fclose(in);   						// in buffer
-	printf(s);							// display to screen
+	char s[128];   				// string buffer
+	FILE * in = fopen("file.txt", "r"); 	// open file to read
+	fgets(s, 128, in);  			// (string buffer, max of that size minus one char so it can be terminated, in buffer)
+	fclose(in);   				// in buffer
+	printf(s);				// display to screen
 
 	return 0;
 }
